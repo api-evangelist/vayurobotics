@@ -1,8 +1,13 @@
 aid: vayurobotics
-name: Vayurobotics
-description: Vayurobotics is a company surfaced as a portfolio company of khosla-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Vayu Robotics
+description: Vayu Robotics is a Palo Alto, California robotics company building AI
+  foundation models and sensing for autonomous mobile robots. Its stack spans Vayu
+  Drive, an end-to-end learned, sim-first foundation model for mobility; Vayu Sense,
+  a plenoptic sensor with embodied AI for high-resolution depth perception; a Vayu
+  Sense Development Kit bundled with NVIDIA Orin; and Vayu One, a low-cost autonomous
+  delivery robot for last- and middle-mile delivery. Backed by Khosla Ventures, the
+  company was acquired by Serve Robotics in September 2025. Enrichment probing found
+  no public developer API, SDK, developer portal, or event surface.
 url: https://raw.githubusercontent.com/api-evangelist/vayurobotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +15,29 @@ x-backed-by:
 - khosla-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/64c8445620e2769c2b8c2f71/65162beba4a457153fe2c708_Vayu-V-Color-on-Dark-256.png
 tags:
 - Company
+- Robotics
+- Autonomous Vehicles
+- Artificial Intelligence
+- Sensors
+- Delivery
+- Foundation Models
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +47,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.vayurobotics.com/
+- type: Blog
+  url: https://www.vayurobotics.com/blog
+- type: Support
+  url: https://www.vayurobotics.com/contact
+- type: LLMsTxt
+  url: llms/vayurobotics-llms.txt
+- type: DomainSecurity
+  url: security/vayurobotics-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
